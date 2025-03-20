@@ -44,7 +44,7 @@ import ImageHover from './image-hover'
       </Link>
     )
     const ProductDetails = () => (
-      <div className='flex-1 space-y-2 bg-red-500'>
+      <div className='flex-1 space-y-2'>
         <p className='font-bold'>{product.brand}</p>
         <Link
           href={`/product/${product.slug}`}
