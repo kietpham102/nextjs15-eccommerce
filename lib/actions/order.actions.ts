@@ -1,6 +1,6 @@
-import { OrderItem } from '@/types'
 import { round2 } from '../utils'
 import { FREE_SHIPPING_MIN_PRICE } from '../constants'
+import {OrderItem} from '@/type'
 
 export const calcDeliveryDateAndPrice = async ({
   items,
