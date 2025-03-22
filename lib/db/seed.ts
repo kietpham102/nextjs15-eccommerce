@@ -21,6 +21,7 @@ import User from './models/user.model'
 
         console.log({
           createdProducts,
+          createdUser,
           message: 'Seeded database successfully',
         })
         process.exit(0)
