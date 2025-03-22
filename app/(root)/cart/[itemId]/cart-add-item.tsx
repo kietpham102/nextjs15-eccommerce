@@ -88,7 +88,6 @@ export default function CartAddItem({ itemId }: { itemId: string }) {
                   // and also add rounded-full and w-full classes to make the button
                   // rounded and full width.
                   className={cn(buttonVariants(), 'rounded-full w-full')}
-
                 >
                   Proceed to checkout (
                   {items.reduce((a, c) => a + c.quantity, 0)} items)
