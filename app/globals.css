@@ -88,3 +88,6 @@ a.highlight-link {
 .h2-bold {
   @apply font-bold text-lg lg:text-xl;
 }
+.flex-between {
+  @apply flex justify-between items-center;
+}
