@@ -20,7 +20,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { UserSignInSchema } from '@/lib/validator'
 import { isRedirectError } from 'next/dist/client/components/redirect-error'
 import { APP_NAME } from '@/lib/constants'
-import {IUserSignIn} from '@/type'
+import {IUserSignIn} from '@/types'
 
 const signInDefaultValues =
   process.env.NODE_ENV === 'development'

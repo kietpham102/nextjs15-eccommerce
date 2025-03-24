@@ -20,7 +20,7 @@ import { UserSignUpSchema } from '@/lib/validator'
 import { Separator } from '@/components/ui/separator'
 import { isRedirectError } from 'next/dist/client/components/redirect-error'
 import { APP_NAME } from '@/lib/constants'
-import {IUserSignUp} from '@/type'
+import {IUserSignUp} from '@/types'
 
 const signUpDefaultValues =
   process.env.NODE_ENV === 'development'

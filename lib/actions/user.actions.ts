@@ -6,7 +6,7 @@ import { connectToDatabase } from '../db'
 import User from '../db/models/user.model'
 import { formatError } from '../utils'
 import { redirect } from 'next/navigation'
-import {IUserSignIn, IUserSignUp} from '@/type'
+import {IUserSignIn, IUserSignUp} from '@/types'
 
 
 export async function signInWithCredentials(user: IUserSignIn) {

@@ -1,4 +1,4 @@
-import {IUserInput} from '@/type'
+import {IUserInput} from '@/types'
 import {
   Document,
   // InferSchemaType,

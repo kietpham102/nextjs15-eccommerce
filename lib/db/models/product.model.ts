@@ -1,4 +1,4 @@
-import {IProductInput} from '@/type'
+import {IProductInput} from '@/types'
 import { Document, Model, model, models, Schema } from 'mongoose'
 
    export interface IProduct extends Document, IProductInput {

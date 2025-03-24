@@ -1,4 +1,4 @@
-  import {Data, IProductInput, IUserInput} from '@/type'
+  import {Data, IProductInput, IUserInput} from '@/types'
 import { toSlug } from './utils'
 import bcrypt from 'bcryptjs'
 
