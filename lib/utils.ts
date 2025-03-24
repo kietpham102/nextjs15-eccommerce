@@ -132,3 +132,6 @@ const CURRENCY_FORMATTER = new Intl.NumberFormat('en-US', {
       timeOnly: formattedTime,
     }
   }
+  export function formatId(id: string) {
+    return `..${id.substring(id.length - 6)}`
+  }

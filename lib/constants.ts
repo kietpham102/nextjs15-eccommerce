@@ -54,3 +54,9 @@ export const APP_COPYRIGHT =
       freeShippingMinPrice: 35,
     },
   ]
+
+  export const SERVER_URL =
+  process.env.NEXT_PUBLIC_SERVER_URL || 'http://localhost:3000'
+
+export const SENDER_EMAIL = process.env.SENDER_EMAIL || 'anhkietpham.hcmus@gmail.com'
+export const SENDER_NAME = process.env.SENDER_NAME || APP_NAME
