@@ -2,8 +2,6 @@ import { APP_NAME } from '@/lib/constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import Menu from './menu'
-import { Button } from '@/components/ui/button'
-import { MenuIcon } from 'lucide-react'
 import data from '@/lib/data'
 import Search from './search'
 import Sidebar from './sidebar'
@@ -11,6 +9,7 @@ import {getAllCategories} from '@/lib/actions/product.actions'
 
 export default async function Header() {
   const categories = await getAllCategories()
+  
 
   return (
     <header className='bg-black  text-white'>
