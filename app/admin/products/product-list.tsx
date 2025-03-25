@@ -1,5 +1,4 @@
-// eslint-disable @typescript-eslint/no-explicit-any
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 import Link from 'next/link'
 
@@ -57,9 +56,7 @@ const ProductList = () => {
     const value = e.target.value
     setInputValue(value)
     if (value) {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
       clearTimeout((window as any).debounce)
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
       ;(window as any).debounce = setTimeout(() => {
         startTransition(async () => {
           const data = await getAllProductsForAdmin({ query: value, page: 1 })
