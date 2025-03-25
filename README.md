@@ -34,4 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# nextjs15-eccommerce
+# nextjs15-E-commerce
+Tech Stack:
+Next.js 15.1.0 (React framework)
+TypeScript
+MongoDB for database
+Tailwind CSS for styling
+NextAuth.js for authentication
+Stripe for payments
+PayPal integration
+Email functionality using Resend
+Key Features:
+User authentication
+Product catalog
+Shopping cart
+Payment processing (Stripe & PayPal)
+Email notifications
+Responsive design
+Search functionality
+Category-based navigation
