@@ -3,8 +3,8 @@ export const i18n = {
     { code: 'en-US', name: 'English', icon: '🇺🇸' },
     { code: 'fr', name: 'Français', icon: '🇫🇷' },
     { code: 'ar', name: 'العربية', icon: '🇸🇦' },
-    { code: 'vi', name: 'Tiếng Việt', icon: '🇻🇳' },
-    { code:'ja', name: '日本語', icon: '🇯🇵' },
+    { code: 'vi-VN', name: 'Tiếng Việt', icon: '🇻🇳' },
+    { code:'ja-JP', name: '日本語', icon: '🇯🇵' },
   ],
   defaultLocale: 'en-US',
 }
