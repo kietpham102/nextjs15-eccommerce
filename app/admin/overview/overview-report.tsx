@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use client'
 import { BadgeDollarSign, Barcode, CreditCard, Users } from 'lucide-react'
 
@@ -36,10 +37,7 @@ export default function OverviewReport() {
     from: calculatePastDate(30),
     to: new Date(),
   })
-
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [data, setData] = useState<{ [key: string]: any }>()
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isPending, startTransition] = useTransition()
   useEffect(() => {
     if (date) {

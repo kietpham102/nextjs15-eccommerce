@@ -1,7 +1,7 @@
 import { Data, IProductInput, IUserInput } from '@/types'
 import { toSlug } from './utils'
 import bcrypt from 'bcryptjs'
-import { i18n } from '@/i18n-config'
+import {i18n} from '@/i18n-config'
 
 const users: IUserInput[] = [
   {
@@ -1298,6 +1298,8 @@ We also provide helpful resources such as order tracking, product guides, and FA
         },
         { name: 'Euro', code: 'EUR', symbol: '€', convertRate: 0.96 },
         { name: 'UAE Dirham', code: 'AED', symbol: 'AED', convertRate: 3.67 },
+        { name: 'Vietnamese Dong', code: 'VND', symbol: '₫', convertRate: 24000},
+        { name:'Japanese Yen', code: 'JPY', symbol: '¥', convertRate: 150},
       ],
       defaultCurrency: 'USD',
       availablePaymentMethods: [
