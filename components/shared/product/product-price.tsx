@@ -60,7 +60,7 @@ const ProductPrice = ({
       >
         <div className={cn('text-3xl', className)}>
           <span className='text-xs align-super'>{currency.symbol}</span>
-          {intValue}
+          {intValue.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
           <span className='text-xs align-super'>{floatValue}</span>
         </div>
         <div className='text-muted-foreground text-xs py-2'>
