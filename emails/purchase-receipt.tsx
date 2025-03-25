@@ -16,7 +16,7 @@ import {
 
 import { formatCurrency } from '@/lib/utils'
 import { IOrder } from '@/lib/db/models/order.model'
-import {getSetting} from '@/lib/actions/setting.actions'
+import { getSetting } from '@/lib/actions/setting.actions'
 
 type OrderInformationProps = {
   order: IOrder
