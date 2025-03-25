@@ -60,3 +60,5 @@ export const APP_COPYRIGHT =
 
 export const SENDER_EMAIL = process.env.SENDER_EMAIL || 'anhkietpham.hcmus@gmail.com'
 export const SENDER_NAME = process.env.SENDER_NAME || APP_NAME
+
+export const USER_ROLES = ['Admin', 'User']
